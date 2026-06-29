@@ -315,3 +315,36 @@ body {
   .footer-title { font-size: 24px; }
   .overview-section, .skills-section, .projects-section, .footer-section { padding: 40px 20px; }
 }
+@media (max-width: 768px) {
+  .intro-split {
+    grid-template-columns: 1fr;
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .intro-headline {
+    font-size: 2rem;
+  }
+
+  .photo-wrap img {
+    height: 300px;
+  }
+
+  .photo-name-caption {
+    text-align: center;
+  }
+
+  .nav-container {
+    gap: 15px;
+    padding: 14px 10px;
+    flex-wrap: wrap;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .project-title {
+    font-size: 26px;
+  }
+}
