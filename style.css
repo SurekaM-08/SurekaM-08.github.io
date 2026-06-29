@@ -316,6 +316,20 @@ body {
   .overview-section, .skills-section, .projects-section, .footer-section { padding: 40px 20px; }
 }
 @media (max-width: 768px) {
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 10px;
+  }
+
+  .nav-link {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
   .intro-split {
     grid-template-columns: 1fr;
     padding: 3rem 1.5rem;
@@ -330,21 +344,21 @@ body {
     height: 300px;
   }
 
-  .photo-name-caption {
-    text-align: center;
-  }
-
-  .nav-container {
-    gap: 15px;
-    padding: 14px 10px;
-    flex-wrap: wrap;
-  }
-
   .section-title {
     font-size: 32px;
   }
 
   .project-title {
     font-size: 26px;
+  }
+
+  .internship-card {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
   }
 }
